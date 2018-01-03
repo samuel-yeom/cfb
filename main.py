@@ -118,7 +118,7 @@ def standardize_team_str(team_str):
     '''Converts a team name to a standardized version.'''
     if team_str[-3:] == ' St': #St -> State
         team_str += 'ate'
-    std_dict = {'Cal': 'California',
+    std_dict = {'California': 'Cal',
                 'Cent Michigan': 'C Michigan',
                 'Coastal Car': 'Coastal Carolina',
                 'C. Carolina': 'Coastal Carolina',
@@ -188,7 +188,7 @@ def read_data(datafile, fbs_list):
             row = map(lambda s: s.strip(), row)
             date_str, team1_str, score1_str, team2_str, score2_str = row
             team1_str = standardize_team_str(team1_str)
-            team2_str = standardize_team_str(team2_str)   
+            team2_str = standardize_team_str(team2_str)
             if team1_str not in fbs_list:
                 team1_str = 'FCS Teams'
             if team2_str not in fbs_list:
@@ -313,17 +313,20 @@ def print_ranking(teams, fpi, ranking, ratings, outfile=None):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Produces a ranking of college football teams for a given season')
     parser.add_argument('year', type=int, help='A 4-digit year representing the college football season')
-    parser.add_argument('--out', help='The file where the ranking will be written; if unspecified, prints to stdout')
+    parser.add_argument('--out', help='The file where the ranking will be written; if not used, prints to stdout')
+    parser.add_argument('--prebowl', action='store_true', help='If used, generates pre-bowl game ranking')
     if len(sys.argv) == 1: #if no arguments are given
         parser.print_help()
         sys.exit(2)
     args = parser.parse_args()
     if args.year < 2014 or args.year > 2017:
         raise ValueError('year must be between 2014 and 2017, inclusive')
-    year = args.year
+    suffix = str(args.year)
+    if args.prebowl:
+        suffix += 'prebowl'
     
-    datafile = 'data/massey{}.csv'.format(year)
-    fpifile = 'data/fpi{}.csv'.format(year)
+    datafile = 'data/massey{}.csv'.format(suffix)
+    fpifile = 'data/fpi{}.csv'.format(suffix)
     outfile = args.out
     
     fpi = read_fpi(fpifile)

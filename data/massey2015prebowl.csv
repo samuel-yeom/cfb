@@ -1,0 +1,829 @@
+9/3/2015,Georgia Tech,69,Alcorn St,6
+9/3/2015,Duke,37,Tulane,7
+9/3/2015,Utah,24,Michigan,17
+9/3/2015,San Jose St,43,New Hampshire,13
+9/3/2015,Ohio,45,Idaho,28
+9/3/2015,South Carolina,17,North Carolina,13
+9/3/2015,TCU,23,Minnesota,17
+9/3/2015,Ball St,48,VMI,36
+9/3/2015,Connecticut,20,Villanova,15
+9/3/2015,Wake Forest,41,Elon,3
+9/3/2015,Nevada,31,UC Davis,17
+9/3/2015,Arizona,42,UT San Antonio,32
+9/3/2015,WKU,14,Vanderbilt,12
+9/3/2015,Florida Intl,15,UCF,14
+9/3/2015,Fresno St,34,Abilene Chr,13
+9/3/2015,Utah St,12,Southern Utah,9
+9/3/2015,Hawaii,28,Colorado,20
+9/3/2015,Oklahoma St,24,C Michigan,13
+9/4/2015,Charlotte,23,Georgia St,20
+9/4/2015,Boise St,16,Washington,13
+9/4/2015,Michigan St,37,W Michigan,24
+9/4/2015,Baylor,56,SMU,21
+9/4/2015,Fordham,37,Army,35
+9/4/2015,Oregon St,26,Weber St,7
+9/4/2015,Syracuse,47,Rhode Island,0
+9/5/2015,NC State,49,Troy,21
+9/5/2015,Clemson,49,Wofford,10
+9/5/2015,Missouri,34,SE Missouri St,3
+9/5/2015,Mississippi,76,TN Martin,3
+9/5/2015,Rice,56,Wagner,16
+9/5/2015,East Carolina,28,Towson,20
+9/5/2015,Pittsburgh,45,Youngstown St,37
+9/5/2015,Air Force,63,Morgan St,7
+9/5/2015,Alabama,35,Wisconsin,17
+9/5/2015,UCLA,34,Virginia,16
+9/5/2015,Arkansas,48,UTEP,13
+9/5/2015,Old Dominion,38,E Michigan,34
+9/5/2015,Miami OH,26,Presbyterian,7
+9/5/2015,Buffalo,51,Albany NY,14
+9/5/2015,S Dakota St,41,Kansas,38
+9/5/2015,North Dakota,24,Wyoming,13
+9/5/2015,Kansas St,34,South Dakota,0
+9/5/2015,Colorado St,65,Savannah St,13
+9/5/2015,Portland St,24,Washington St,17
+9/5/2015,Cincinnati,52,Alabama A&M,10
+9/5/2015,Tulsa,47,FL Atlantic,44
+9/5/2015,Auburn,31,Louisville,24
+9/5/2015,Boston College,24,Maine,3
+9/5/2015,South Florida,51,Florida A&M,3
+9/5/2015,West Virginia,44,Ga Southern,0
+9/5/2015,California,73,Grambling,14
+9/5/2015,Appalachian St,49,Howard,0
+9/5/2015,Iowa,31,Illinois St,14
+9/5/2015,Miami FL,45,Bethune-Cookman,0
+9/5/2015,South Alabama,33,Gardner Webb,23
+9/5/2015,Texas A&M,38,Arizona St,17
+9/5/2015,USC,55,Arkansas St,6
+9/5/2015,Oklahoma,41,Akron,3
+9/5/2015,Oregon,61,E Washington,42
+9/5/2015,Tennessee,59,Bowling Green,30
+9/5/2015,BYU,33,Nebraska,28
+9/5/2015,Mississippi St,34,Southern Miss,16
+9/5/2015,New Mexico,66,MS Valley St,0
+9/5/2015,N Illinois,38,UNLV,30
+9/5/2015,Florida,61,New Mexico St,13
+9/5/2015,Georgia,51,ULM,14
+9/5/2015,Iowa St,31,Northern Iowa,7
+9/5/2015,Houston,52,Tennessee Tech,24
+9/5/2015,Notre Dame,38,Texas,3
+9/5/2015,Northwestern,16,Stanford,6
+9/5/2015,Texas Tech,59,Sam Houston St,45
+9/5/2015,Indiana,48,S Illinois,47
+9/5/2015,Louisiana Tech,62,Southern Univ,15
+9/5/2015,Florida St,59,Texas St,16
+9/5/2015,Memphis,63,Missouri St,7
+9/5/2015,Kentucky,40,ULL,33
+9/5/2015,Rutgers,63,Norfolk St,13
+9/5/2015,Temple,27,Penn St,10
+9/5/2015,Maryland,50,Richmond,21
+9/5/2015,Navy,48,Colgate,10
+9/5/2015,MTSU,70,Jackson St,14
+9/5/2015,San Diego St,37,San Diego,3
+9/5/2015,Illinois,52,Kent,3
+9/6/2015,Marshall,41,Purdue,31
+9/7/2015,Ohio St,42,Virginia Tech,24
+9/10/2015,WKU,41,Louisiana Tech,38
+9/11/2015,Miami FL,44,FL Atlantic,20
+9/11/2015,Utah,24,Utah St,14
+9/12/2015,Notre Dame,34,Virginia,27
+9/12/2015,SMU,31,North Texas,13
+9/12/2015,ULM,47,Nicholls St,0
+9/12/2015,North Carolina,53,NC A&T,14
+9/12/2015,Missouri,27,Arkansas St,20
+9/12/2015,N Illinois,57,Murray St,26
+9/12/2015,Alabama,37,MTSU,10
+9/12/2015,Minnesota,23,Colorado St,20
+9/12/2015,Wisconsin,58,Miami OH,0
+9/12/2015,Colorado,48,Massachusetts,14
+9/12/2015,Texas,42,Rice,28
+9/12/2015,Pittsburgh,24,Akron,7
+9/12/2015,Texas St,63,Prairie View,24
+9/12/2015,California,35,San Diego St,7
+9/12/2015,Air Force,37,San Jose St,16
+9/12/2015,Michigan St,31,Oregon,28
+9/12/2015,Old Dominion,24,Norfolk St,10
+9/12/2015,Michigan,35,Oregon St,7
+9/12/2015,Oklahoma,31,Tennessee,24
+9/12/2015,Temple,34,Cincinnati,26
+9/12/2015,TCU,70,SF Austin,7
+9/12/2015,Purdue,38,Indiana St,14
+9/12/2015,Iowa,31,Iowa St,17
+9/12/2015,LSU,21,Mississippi St,19
+9/12/2015,Kansas St,30,UT San Antonio,3
+9/12/2015,Memphis,55,Kansas,23
+9/12/2015,Ohio,21,Marshall,10
+9/12/2015,Kentucky,26,South Carolina,22
+9/12/2015,Boston College,76,Howard,0
+9/12/2015,USC,59,Idaho,9
+9/12/2015,Ohio St,38,Hawaii,0
+9/12/2015,Houston,34,Louisville,31
+9/12/2015,Mississippi,73,Fresno St,21
+9/12/2015,Georgia,31,Vanderbilt,14
+9/12/2015,Arizona St,35,Cal Poly,21
+9/12/2015,Virginia Tech,42,Furman,3
+9/12/2015,Northwestern,41,E Illinois,0
+9/12/2015,NC State,35,E Kentucky,0
+9/12/2015,E Michigan,48,Wyoming,29
+9/12/2015,Florida,31,East Carolina,24
+9/12/2015,Kent,45,Delaware St,13
+9/12/2015,Bowling Green,48,Maryland,27
+9/12/2015,Clemson,41,Appalachian St,10
+9/12/2015,Arizona,44,Nevada,20
+9/12/2015,Texas A&M,56,Ball St,23
+9/12/2015,BYU,35,Boise St,24
+9/12/2015,Connecticut,22,Army,17
+9/12/2015,Southern Miss,52,Austin Peay,6
+9/12/2015,C Michigan,31,Monmouth NJ,10
+9/12/2015,Florida St,34,South Florida,14
+9/12/2015,Washington,49,CS Sacramento,0
+9/12/2015,Duke,55,NC Central,0
+9/12/2015,Troy,44,Charleston So,16
+9/12/2015,Charlotte,34,Presbyterian,10
+9/12/2015,Oklahoma St,32,Cent Arkansas,8
+9/12/2015,Indiana,36,Florida Intl,22
+9/12/2015,Georgia St,34,New Mexico St,32
+9/12/2015,Baylor,66,Lamar,31
+9/12/2015,Nebraska,48,South Alabama,9
+9/12/2015,Texas Tech,69,UTEP,20
+9/12/2015,Toledo,16,Arkansas,12
+9/12/2015,Georgia Tech,65,Tulane,10
+9/12/2015,Tulsa,40,New Mexico,21
+9/12/2015,UCLA,37,UNLV,3
+9/12/2015,Syracuse,30,Wake Forest,17
+9/12/2015,West Virginia,41,Liberty,17
+9/12/2015,Auburn,27,Jacksonville St,20
+9/12/2015,Penn St,27,Buffalo,14
+9/12/2015,Stanford,31,UCF,7
+9/12/2015,Ga Southern,43,W Michigan,17
+9/12/2015,Illinois,44,W Illinois,0
+9/12/2015,Washington St,37,Rutgers,34
+9/12/2015,ULL,44,Northwestern LA,17
+9/17/2015,Clemson,20,Louisville,17
+9/18/2015,Florida St,14,Boston College,0
+9/18/2015,Boise St,52,Idaho St,0
+9/18/2015,Arizona St,34,New Mexico,10
+9/19/2015,Texas A&M,44,Nevada,27
+9/19/2015,NC State,38,Old Dominion,14
+9/19/2015,Northwestern,19,Duke,10
+9/19/2015,Arizona,77,Northern Arizona,13
+9/19/2015,Ohio St,20,N Illinois,13
+9/19/2015,W Michigan,52,Murray St,20
+9/19/2015,Miami FL,36,Nebraska,33
+9/19/2015,Michigan,28,UNLV,7
+9/19/2015,Mississippi,43,Alabama,37
+9/19/2015,Stanford,41,USC,31
+9/19/2015,Temple,25,Massachusetts,23
+9/19/2015,Arkansas St,70,Missouri St,7
+9/19/2015,TCU,56,SMU,37
+9/19/2015,Southern Miss,56,Texas St,50
+9/19/2015,Mississippi St,62,Northwestern LA,13
+9/19/2015,Marshall,45,Norfolk St,7
+9/19/2015,Iowa,27,Pittsburgh,24
+9/19/2015,Oregon St,35,San Jose St,21
+9/19/2015,Georgia,52,South Carolina,20
+9/19/2015,Penn St,28,Rutgers,3
+9/19/2015,Rice,38,North Texas,24
+9/19/2015,Toledo,30,Iowa St,23
+9/19/2015,Minnesota,10,Kent,7
+9/19/2015,Tulane,38,Maine,7
+9/19/2015,Kansas St,39,Louisiana Tech,33
+9/19/2015,Memphis,44,Bowling Green,41
+9/19/2015,Florida,14,Kentucky,9
+9/19/2015,Furman,16,UCF,15
+9/19/2015,Notre Dame,30,Georgia Tech,22
+9/19/2015,North Carolina,48,Illinois,14
+9/19/2015,Syracuse,30,C Michigan,27
+9/19/2015,Cincinnati,37,Miami OH,33
+9/19/2015,UCLA,24,BYU,23
+9/19/2015,California,45,Texas,44
+9/19/2015,Ga Southern,48,Citadel,13
+9/19/2015,Colorado,27,Colorado St,24
+9/19/2015,Missouri,9,Connecticut,6
+9/19/2015,Ball St,28,E Michigan,17
+9/19/2015,Vanderbilt,47,Austin Peay,7
+9/19/2015,LSU,45,Auburn,21
+9/19/2015,Michigan St,35,Air Force,21
+9/19/2015,Tennessee,55,W Carolina,10
+9/19/2015,Indiana,38,WKU,35
+9/19/2015,Virginia,35,William & Mary,29
+9/19/2015,Wisconsin,28,Troy,3
+9/19/2015,Buffalo,33,FL Atlantic,15
+9/19/2015,Washington St,31,Wyoming,14
+9/19/2015,Virginia Tech,51,Purdue,24
+9/19/2015,Wake Forest,17,Army,14
+9/19/2015,Washington,31,Utah St,17
+9/19/2015,Utah,45,Fresno St,24
+9/19/2015,Oklahoma,52,Tulsa,38
+9/19/2015,UTEP,50,New Mexico St,47
+9/19/2015,Texas Tech,35,Arkansas,24
+9/19/2015,South Alabama,34,San Diego St,27
+9/19/2015,Oklahoma St,69,UT San Antonio,14
+9/19/2015,Oregon,61,Georgia St,28
+9/19/2015,Ohio,35,SE Louisiana,14
+9/19/2015,Hawaii,47,UC Davis,27
+9/19/2015,Florida Intl,39,NC Central,14
+9/19/2015,Akron,52,Savannah St,9
+9/19/2015,Maryland,35,South Florida,17
+9/19/2015,MTSU,73,Charlotte,14
+9/19/2015,Navy,45,East Carolina,21
+9/19/2015,Idaho,41,Wofford,38
+9/24/2015,Memphis,53,Cincinnati,46
+9/25/2015,Boise St,56,Virginia,14
+9/25/2015,Stanford,42,Oregon St,24
+9/26/2015,Florida,28,Tennessee,27
+9/26/2015,TCU,55,Texas Tech,52
+9/26/2015,Texas A&M,28,Arkansas,21
+9/26/2015,Nebraska,36,Southern Miss,28
+9/26/2015,USC,42,Arizona St,14
+9/26/2015,Georgia,48,Southern Univ,6
+9/26/2015,Houston,59,Texas St,14
+9/26/2015,Baylor,70,Rice,17
+9/26/2015,Penn St,37,San Diego St,21
+9/26/2015,Minnesota,27,Ohio,24
+9/26/2015,Oklahoma St,30,Texas,27
+9/26/2015,Mississippi St,17,Auburn,9
+9/26/2015,Kentucky,21,Missouri,13
+9/26/2015,Navy,28,Connecticut,18
+9/26/2015,Notre Dame,62,Massachusetts,27
+9/26/2015,WKU,56,Miami OH,14
+9/26/2015,Illinois,27,MTSU,25
+9/26/2015,Boston College,17,N Illinois,14
+9/26/2015,Alabama,34,ULM,0
+9/26/2015,Colorado,48,Nicholls St,0
+9/26/2015,NC State,63,South Alabama,13
+9/26/2015,Iowa,62,North Texas,16
+9/26/2015,Nevada,24,Buffalo,21
+9/26/2015,New Mexico,38,Wyoming,28
+9/26/2015,Northwestern,24,Ball St,19
+9/26/2015,Army,58,E Michigan,36
+9/26/2015,Akron,35,ULL,14
+9/26/2015,Toledo,37,Arkansas St,7
+9/26/2015,Appalachian St,49,Old Dominion,0
+9/26/2015,California,30,Washington,24
+9/26/2015,Michigan,31,BYU,0
+9/26/2015,Bowling Green,35,Purdue,28
+9/26/2015,North Carolina,41,Delaware,14
+9/26/2015,Michigan St,30,C Michigan,10
+9/26/2015,Colorado St,33,UT San Antonio,31
+9/26/2015,Indiana,31,Wake Forest,24
+9/26/2015,Duke,34,Georgia Tech,20
+9/26/2015,Wisconsin,28,Hawaii,0
+9/26/2015,San Jose St,49,Fresno St,23
+9/26/2015,Marshall,36,Kent,29
+9/26/2015,West Virginia,45,Maryland,6
+9/26/2015,LSU,34,Syracuse,24
+9/26/2015,UNLV,80,Idaho St,8
+9/26/2015,James Madison,48,SMU,45
+9/26/2015,Rutgers,27,Kansas,14
+9/26/2015,Ohio St,38,W Michigan,12
+9/26/2015,Louisville,45,Samford,3
+9/26/2015,South Carolina,31,UCF,14
+9/26/2015,Utah,62,Oregon,20
+9/26/2015,UCLA,56,Arizona,30
+9/26/2015,Mississippi,27,Vanderbilt,16
+9/26/2015,East Carolina,35,Virginia Tech,28
+9/26/2015,FL Atlantic,17,Charlotte,7
+9/26/2015,Louisiana Tech,27,Florida Intl,17
+9/26/2015,UTEP,27,Incarnate Word,17
+9/26/2015,Ga Southern,44,Idaho,20
+10/1/2015,Cincinnati,34,Miami FL,23
+10/2/2015,Memphis,24,South Florida,17
+10/2/2015,BYU,30,Connecticut,13
+10/2/2015,Temple,37,Charlotte,3
+10/3/2015,Utah St,33,Colorado St,18
+10/3/2015,East Carolina,49,SMU,23
+10/3/2015,Bowling Green,28,Buffalo,22
+10/3/2015,Arkansas,24,Tennessee,20
+10/3/2015,Stanford,55,Arizona,17
+10/3/2015,Arizona St,38,UCLA,23
+10/3/2015,Alabama,38,Georgia,10
+10/3/2015,Penn St,20,Army,14
+10/3/2015,Duke,9,Boston College,7
+10/3/2015,Ga Southern,51,ULM,31
+10/3/2015,San Diego St,21,Fresno St,7
+10/3/2015,LSU,44,E Michigan,22
+10/3/2015,Kentucky,34,E Kentucky,27
+10/3/2015,Florida St,24,Wake Forest,16
+10/3/2015,Houston,38,Tulsa,24
+10/3/2015,Boise St,55,Hawaii,0
+10/3/2015,Arkansas St,49,Idaho,35
+10/3/2015,Iowa,10,Wisconsin,6
+10/3/2015,Oklahoma St,36,Kansas St,34
+10/3/2015,Iowa St,38,Kansas,13
+10/3/2015,Louisville,20,NC State,13
+10/3/2015,Kent,20,Miami OH,14
+10/3/2015,Michigan,28,Maryland,0
+10/3/2015,Illinois,14,Nebraska,13
+10/3/2015,UNLV,23,Nevada,17
+10/3/2015,Texas A&M,30,Mississippi St,17
+10/3/2015,Northwestern,27,Minnesota,0
+10/3/2015,Florida,38,Mississippi,10
+10/3/2015,New Mexico,38,New Mexico St,29
+10/3/2015,North Carolina,38,Georgia Tech,31
+10/3/2015,C Michigan,29,N Illinois,19
+10/3/2015,Southern Miss,49,North Texas,14
+10/3/2015,Clemson,24,Notre Dame,22
+10/3/2015,Ohio St,34,Indiana,27
+10/3/2015,Ohio,14,Akron,12
+10/3/2015,Oregon,41,Colorado,24
+10/3/2015,Missouri,24,South Carolina,10
+10/3/2015,Auburn,35,San Jose St,21
+10/3/2015,Pittsburgh,17,Virginia Tech,13
+10/3/2015,Michigan St,24,Purdue,21
+10/3/2015,Louisiana Tech,43,ULL,14
+10/3/2015,TCU,50,Texas,7
+10/3/2015,Marshall,27,Old Dominion,7
+10/3/2015,South Alabama,24,Troy,18
+10/3/2015,Massachusetts,24,Florida Intl,14
+10/3/2015,UT San Antonio,25,UTEP,6
+10/3/2015,Vanderbilt,17,MTSU,13
+10/3/2015,Baylor,63,Texas Tech,35
+10/3/2015,Toledo,24,Ball St,10
+10/3/2015,Tulane,45,UCF,31
+10/3/2015,Appalachian St,31,Wyoming,13
+10/3/2015,Liberty,41,Georgia St,33
+10/3/2015,Oklahoma,44,West Virginia,24
+10/3/2015,WKU,49,Rice,10
+10/3/2015,California,34,Washington St,28
+10/3/2015,Navy,33,Air Force,11
+10/8/2015,Houston,49,SMU,28
+10/8/2015,Washington,17,USC,12
+10/9/2015,Virginia Tech,28,NC State,13
+10/9/2015,Marshall,31,Southern Miss,10
+10/10/2015,Mississippi,52,New Mexico St,3
+10/10/2015,Nevada,35,New Mexico,17
+10/10/2015,Tulsa,34,ULM,24
+10/10/2015,Michigan,38,Northwestern,0
+10/10/2015,Notre Dame,41,Navy,24
+10/10/2015,Ohio,34,Miami OH,3
+10/10/2015,Florida St,29,Miami FL,24
+10/10/2015,Michigan St,31,Rutgers,24
+10/10/2015,Minnesota,41,Purdue,13
+10/10/2015,WKU,58,MTSU,28
+10/10/2015,ULL,49,Texas St,27
+10/10/2015,South Florida,45,Syracuse,24
+10/10/2015,TCU,52,Kansas St,45
+10/10/2015,Rice,27,FL Atlantic,26
+10/10/2015,San Jose St,33,UNLV,27
+10/10/2015,San Diego St,28,Hawaii,14
+10/10/2015,Oklahoma St,33,West Virginia,26
+10/10/2015,Texas,24,Oklahoma,17
+10/10/2015,Arizona,44,Oregon St,7
+10/10/2015,Akron,47,E Michigan,21
+10/10/2015,Appalachian St,37,Georgia St,3
+10/10/2015,Alabama,27,Arkansas,14
+10/10/2015,Boise St,41,Colorado St,10
+10/10/2015,Baylor,66,Kansas,7
+10/10/2015,N Illinois,59,Ball St,41
+10/10/2015,Utah,30,California,24
+10/10/2015,W Michigan,41,C Michigan,39
+10/10/2015,BYU,45,East Carolina,38
+10/10/2015,Duke,44,Army,3
+10/10/2015,Connecticut,40,UCF,13
+10/10/2015,Arizona St,48,Colorado,23
+10/10/2015,Louisiana Tech,34,UT San Antonio,31
+10/10/2015,Ohio St,49,Maryland,28
+10/10/2015,Bowling Green,62,Massachusetts,38
+10/10/2015,LSU,45,South Carolina,24
+10/10/2015,Toledo,38,Kent,7
+10/10/2015,Texas Tech,66,Iowa St,31
+10/10/2015,Penn St,29,Indiana,7
+10/10/2015,Iowa,29,Illinois,20
+10/10/2015,Clemson,43,Georgia Tech,24
+10/10/2015,Florida,21,Missouri,3
+10/10/2015,Tennessee,38,Georgia,31
+10/10/2015,Wake Forest,3,Boston College,0
+10/10/2015,Pittsburgh,26,Virginia,19
+10/10/2015,Utah St,56,Fresno St,14
+10/10/2015,Florida Intl,52,UTEP,12
+10/10/2015,Temple,49,Tulane,10
+10/10/2015,Washington St,45,Oregon,38
+10/10/2015,Mississippi St,45,Troy,17
+10/10/2015,Wisconsin,23,Nebraska,21
+10/10/2015,Air Force,31,Wyoming,17
+10/10/2015,Portland St,66,North Texas,7
+10/13/2015,Arkansas St,49,South Alabama,31
+10/15/2015,Auburn,30,Kentucky,27
+10/15/2015,Stanford,56,UCLA,35
+10/15/2015,WKU,55,North Texas,28
+10/16/2015,Houston,42,Tulane,7
+10/16/2015,Utah St,52,Boise St,26
+10/16/2015,BYU,38,Cincinnati,24
+10/16/2015,Fresno St,31,UNLV,28
+10/17/2015,New Mexico,28,Hawaii,27
+10/17/2015,Idaho,19,Troy,16
+10/17/2015,LSU,35,Florida,28
+10/17/2015,Toledo,63,E Michigan,20
+10/17/2015,Iowa,40,Northwestern,10
+10/17/2015,Kent,15,Massachusetts,10
+10/17/2015,Marshall,33,FL Atlantic,17
+10/17/2015,Mississippi St,45,Louisiana Tech,20
+10/17/2015,Florida St,41,Louisville,21
+10/17/2015,Clemson,34,Boston College,17
+10/17/2015,Utah,34,Arizona St,18
+10/17/2015,Arizona,38,Colorado,31
+10/17/2015,Appalachian St,59,ULM,14
+10/17/2015,Alabama,41,Texas A&M,23
+10/17/2015,Bowling Green,59,Akron,10
+10/17/2015,Colorado St,38,Air Force,23
+10/17/2015,Army,21,Bucknell,14
+10/17/2015,Ohio St,38,Penn St,10
+10/17/2015,Oregon,26,Washington,20
+10/17/2015,Washington St,52,Oregon St,31
+10/17/2015,Oklahoma,55,Kansas St,0
+10/17/2015,San Diego St,30,San Jose St,7
+10/17/2015,Pittsburgh,31,Georgia Tech,28
+10/17/2015,Rutgers,55,Indiana,52
+10/17/2015,Wisconsin,24,Purdue,7
+10/17/2015,TCU,45,Iowa St,21
+10/17/2015,Virginia,44,Syracuse,38
+10/17/2015,Notre Dame,41,USC,31
+10/17/2015,Michigan St,27,Michigan,23
+10/17/2015,Nebraska,48,Minnesota,25
+10/17/2015,Memphis,37,Mississippi,24
+10/17/2015,Georgia,9,Missouri,6
+10/17/2015,N Illinois,45,Miami OH,12
+10/17/2015,Wyoming,28,Nevada,21
+10/17/2015,Ga Southern,56,New Mexico St,26
+10/17/2015,East Carolina,30,Tulsa,17
+10/17/2015,Texas Tech,30,Kansas,20
+10/17/2015,South Carolina,19,Vanderbilt,10
+10/17/2015,North Carolina,50,Wake Forest,14
+10/17/2015,Miami FL,30,Virginia Tech,20
+10/17/2015,Temple,30,UCF,16
+10/17/2015,C Michigan,51,Buffalo,14
+10/17/2015,Baylor,62,West Virginia,38
+10/17/2015,W Michigan,49,Ohio,14
+10/17/2015,South Florida,28,Connecticut,20
+10/17/2015,MTSU,42,Florida Intl,34
+10/17/2015,Georgia St,31,Ball St,19
+10/17/2015,Southern Miss,32,UT San Antonio,10
+10/17/2015,Old Dominion,37,Charlotte,34
+10/20/2015,Arkansas St,37,ULL,27
+10/22/2015,Temple,24,East Carolina,14
+10/22/2015,UCLA,40,California,24
+10/22/2015,Appalachian St,31,Ga Southern,13
+10/23/2015,Memphis,66,Tulsa,42
+10/23/2015,San Diego St,48,Utah St,14
+10/24/2015,Mississippi St,42,Kentucky,16
+10/24/2015,Baylor,45,Iowa St,27
+10/24/2015,Texas,23,Kansas St,9
+10/24/2015,Oklahoma St,58,Kansas,10
+10/24/2015,Air Force,42,Fresno St,14
+10/24/2015,N Illinois,49,E Michigan,21
+10/24/2015,Georgia Tech,22,Florida St,16
+10/24/2015,Houston,59,UCF,10
+10/24/2015,Michigan St,52,Indiana,26
+10/24/2015,Nevada,30,Hawaii,20
+10/24/2015,Bowling Green,48,Kent,0
+10/24/2015,C Michigan,23,Ball St,21
+10/24/2015,Clemson,58,Miami FL,0
+10/24/2015,Colorado,17,Oregon St,13
+10/24/2015,Cincinnati,37,Connecticut,13
+10/24/2015,Duke,45,Virginia Tech,43
+10/24/2015,Louisville,17,Boston College,14
+10/24/2015,Arkansas,54,Auburn,46
+10/24/2015,Rice,38,Army,31
+10/24/2015,Alabama,19,Tennessee,14
+10/24/2015,Mississippi,23,Texas A&M,3
+10/24/2015,South Florida,38,SMU,14
+10/24/2015,Southern Miss,44,Charlotte,10
+10/24/2015,Pittsburgh,23,Syracuse,20
+10/24/2015,Penn St,31,Maryland,30
+10/24/2015,San Jose St,31,New Mexico,21
+10/24/2015,NC State,35,Wake Forest,17
+10/24/2015,Marshall,30,North Texas,13
+10/24/2015,Northwestern,30,Nebraska,28
+10/24/2015,Buffalo,41,Ohio,17
+10/24/2015,Ohio St,49,Rutgers,7
+10/24/2015,Vanderbilt,10,Missouri,3
+10/24/2015,Louisiana Tech,45,MTSU,16
+10/24/2015,W Michigan,35,Miami OH,13
+10/24/2015,Florida Intl,41,Old Dominion,12
+10/24/2015,Texas St,36,South Alabama,18
+10/24/2015,UTEP,27,FL Atlantic,17
+10/24/2015,LSU,48,WKU,20
+10/24/2015,Troy,52,New Mexico St,7
+10/24/2015,BYU,70,Wagner,6
+10/24/2015,Boise St,34,Wyoming,14
+10/24/2015,Wisconsin,24,Illinois,13
+10/24/2015,Stanford,31,Washington,14
+10/24/2015,Washington St,45,Arizona,42
+10/24/2015,USC,42,Utah,24
+10/24/2015,North Carolina,26,Virginia,13
+10/24/2015,Oklahoma,63,Texas Tech,27
+10/24/2015,Toledo,51,Massachusetts,35
+10/24/2015,Navy,31,Tulane,14
+10/24/2015,Idaho,27,ULM,13
+10/29/2015,North Carolina,26,Pittsburgh,19
+10/29/2015,Oregon,61,Arizona St,55
+10/29/2015,Ga Southern,37,Texas St,13
+10/29/2015,Buffalo,29,Miami OH,24
+10/29/2015,TCU,40,West Virginia,10
+10/29/2015,W Michigan,58,E Michigan,28
+10/30/2015,Connecticut,31,East Carolina,13
+10/30/2015,Louisville,20,Wake Forest,19
+10/30/2015,Louisiana Tech,42,Rice,17
+10/30/2015,Utah St,58,Wyoming,27
+10/31/2015,Marshall,34,Charlotte,10
+10/31/2015,Ball St,20,Massachusetts,10
+10/31/2015,Iowa,31,Maryland,15
+10/31/2015,Virginia,27,Georgia Tech,21
+10/31/2015,Penn St,39,Illinois,0
+10/31/2015,New Mexico St,55,Idaho,48
+10/31/2015,Florida,27,Georgia,3
+10/31/2015,UCLA,35,Colorado,31
+10/31/2015,Clemson,56,NC State,41
+10/31/2015,C Michigan,14,Akron,6
+10/31/2015,Boise St,55,UNLV,27
+10/31/2015,Air Force,58,Hawaii,7
+10/31/2015,Washington,49,Arizona,3
+10/31/2015,Texas A&M,35,South Carolina,28
+10/31/2015,USC,27,California,21
+10/31/2015,Iowa St,24,Texas,0
+10/31/2015,Tennessee,52,Kentucky,21
+10/31/2015,Stanford,30,Washington St,28
+10/31/2015,Florida St,45,Syracuse,21
+10/31/2015,Oklahoma St,70,Texas Tech,53
+10/31/2015,Oklahoma,62,Kansas,7
+10/31/2015,Utah,27,Oregon St,12
+10/31/2015,Wisconsin,48,Rutgers,10
+10/31/2015,San Diego St,41,Colorado St,17
+10/31/2015,ULL,30,ULM,24
+10/31/2015,Notre Dame,24,Temple,20
+10/31/2015,Michigan,29,Minnesota,26
+10/31/2015,Miami FL,30,Duke,27
+10/31/2015,Mississippi,27,Auburn,19
+10/31/2015,Purdue,55,Nebraska,45
+10/31/2015,WKU,55,Old Dominion,30
+10/31/2015,Appalachian St,44,Troy,41
+10/31/2015,Cincinnati,52,UCF,7
+10/31/2015,Arkansas,63,TN Martin,28
+10/31/2015,Memphis,41,Tulane,13
+10/31/2015,Tulsa,40,SMU,31
+10/31/2015,Southern Miss,34,UTEP,13
+10/31/2015,Houston,34,Vanderbilt,0
+10/31/2015,Virginia Tech,26,Boston College,10
+10/31/2015,Arkansas St,48,Georgia St,34
+10/31/2015,FL Atlantic,31,Florida Intl,17
+10/31/2015,North Texas,30,UT San Antonio,23
+10/31/2015,Navy,29,South Florida,17
+11/3/2015,N Illinois,32,Toledo,27
+11/4/2015,Bowling Green,62,Ohio,24
+11/5/2015,Mississippi St,31,Missouri,13
+11/5/2015,Arkansas St,40,Appalachian St,27
+11/5/2015,Baylor,31,Kansas St,24
+11/5/2015,W Michigan,54,Ball St,7
+11/5/2015,Buffalo,18,Kent,17
+11/5/2015,Nevada,30,Fresno St,16
+11/6/2015,Temple,60,SMU,40
+11/6/2015,UTEP,24,Rice,21
+11/6/2015,BYU,17,San Jose St,16
+11/7/2015,Oklahoma St,49,TCU,29
+11/7/2015,Louisville,41,Syracuse,17
+11/7/2015,Stanford,42,Colorado,10
+11/7/2015,Tennessee,27,South Carolina,24
+11/7/2015,ULL,23,Georgia St,21
+11/7/2015,Michigan,49,Rutgers,16
+11/7/2015,Northwestern,23,Penn St,21
+11/7/2015,Navy,45,Memphis,20
+11/7/2015,Nebraska,39,Michigan St,38
+11/7/2015,Ohio St,28,Minnesota,14
+11/7/2015,Notre Dame,42,Pittsburgh,30
+11/7/2015,Troy,51,ULM,14
+11/7/2015,NC State,24,Boston College,8
+11/7/2015,Louisiana Tech,56,North Texas,13
+11/7/2015,New Mexico St,31,Texas St,21
+11/7/2015,Air Force,20,Army,3
+11/7/2015,Auburn,26,Texas A&M,10
+11/7/2015,Arkansas,53,Mississippi,52
+11/7/2015,USC,38,Arizona,30
+11/7/2015,Washington St,38,Arizona St,24
+11/7/2015,Akron,17,Massachusetts,13
+11/7/2015,Houston,33,Cincinnati,30
+11/7/2015,Oregon,44,California,28
+11/7/2015,Colorado St,26,Wyoming,7
+11/7/2015,Connecticut,7,Tulane,3
+11/7/2015,North Carolina,66,Duke,31
+11/7/2015,Clemson,23,Florida St,13
+11/7/2015,Miami OH,28,E Michigan,13
+11/7/2015,South Alabama,52,Idaho,45
+11/7/2015,Illinois,48,Purdue,14
+11/7/2015,UNLV,41,Hawaii,21
+11/7/2015,MTSU,27,Marshall,24
+11/7/2015,Alabama,30,LSU,16
+11/7/2015,Texas,59,Kansas,20
+11/7/2015,Oklahoma,52,Iowa St,16
+11/7/2015,Iowa,35,Indiana,27
+11/7/2015,Georgia,27,Kentucky,3
+11/7/2015,Tulsa,45,UCF,30
+11/7/2015,New Mexico,14,Utah St,13
+11/7/2015,Miami FL,27,Virginia,21
+11/7/2015,Florida,9,Vanderbilt,7
+11/7/2015,West Virginia,31,Texas Tech,26
+11/7/2015,UCLA,41,Oregon St,0
+11/7/2015,Utah,34,Washington,23
+11/7/2015,Wisconsin,31,Maryland,24
+11/7/2015,South Florida,22,East Carolina,17
+11/7/2015,WKU,35,FL Atlantic,19
+11/7/2015,Old Dominion,36,UT San Antonio,31
+11/7/2015,Florida Intl,48,Charlotte,31
+11/10/2015,Toledo,28,C Michigan,23
+11/10/2015,Ohio,27,Kent,0
+11/11/2015,Bowling Green,41,W Michigan,27
+11/11/2015,N Illinois,41,Buffalo,30
+11/12/2015,South Alabama,32,ULL,25
+11/12/2015,Virginia Tech,23,Georgia Tech,21
+11/13/2015,USC,27,Colorado,24
+11/14/2015,Southern Miss,65,Rice,10
+11/14/2015,South Florida,44,Temple,23
+11/14/2015,West Virginia,38,Texas,20
+11/14/2015,California,54,Oregon St,24
+11/14/2015,Pittsburgh,31,Duke,13
+11/14/2015,Oklahoma,44,Baylor,34
+11/14/2015,Oklahoma St,35,Iowa St,31
+11/14/2015,Oregon,38,Stanford,36
+11/14/2015,Northwestern,21,Purdue,14
+11/14/2015,Nevada,37,San Jose St,34
+11/14/2015,Ohio St,28,Illinois,3
+11/14/2015,New Mexico,31,Boise St,24
+11/14/2015,Tennessee,24,North Texas,0
+11/14/2015,Florida St,34,NC State,17
+11/14/2015,Iowa,40,Minnesota,35
+11/14/2015,MTSU,24,FL Atlantic,17
+11/14/2015,North Carolina,59,Miami FL,21
+11/14/2015,Houston,35,Memphis,34
+11/14/2015,Michigan,48,Indiana,41
+11/14/2015,Nebraska,31,Rutgers,14
+11/14/2015,Colorado St,49,UNLV,35
+11/14/2015,Missouri,20,BYU,16
+11/14/2015,Clemson,37,Syracuse,27
+11/14/2015,Akron,37,Miami OH,28
+11/14/2015,Alabama,31,Mississippi St,6
+11/14/2015,Appalachian St,47,Idaho,20
+11/14/2015,Arkansas,31,LSU,14
+11/14/2015,Arkansas St,59,ULM,21
+11/14/2015,Texas Tech,59,Kansas St,44
+11/14/2015,TCU,23,Kansas,17
+11/14/2015,Vanderbilt,21,Kentucky,17
+11/14/2015,Michigan St,24,Maryland,7
+11/14/2015,Massachusetts,28,E Michigan,17
+11/14/2015,Florida,24,South Carolina,14
+11/14/2015,Georgia,20,Auburn,13
+11/14/2015,Fresno St,42,Hawaii,14
+11/14/2015,Ga Southern,45,Troy,10
+11/14/2015,Notre Dame,28,Wake Forest,7
+11/14/2015,Arizona St,27,Washington,17
+11/14/2015,Arizona,37,Utah,30
+11/14/2015,Louisville,38,Virginia,31
+11/14/2015,Tulane,34,Army,31
+11/14/2015,Old Dominion,31,UTEP,21
+11/14/2015,Air Force,35,Utah St,28
+11/14/2015,Cincinnati,49,Tulsa,38
+11/14/2015,San Diego St,38,Wyoming,3
+11/14/2015,Texas A&M,41,W Carolina,17
+11/14/2015,Washington St,31,UCLA,27
+11/14/2015,UT San Antonio,30,Charlotte,27
+11/14/2015,Marshall,52,Florida Intl,0
+11/14/2015,Georgia St,41,Texas St,19
+11/14/2015,Navy,55,SMU,14
+11/17/2015,Ohio,48,Ball St,31
+11/17/2015,Toledo,44,Bowling Green,28
+11/18/2015,N Illinois,27,W Michigan,19
+11/18/2015,C Michigan,27,Kent,14
+11/19/2015,East Carolina,44,UCF,7
+11/19/2015,Texas St,16,ULM,3
+11/20/2015,South Florida,65,Cincinnati,27
+11/20/2015,Air Force,37,Boise St,30
+11/21/2015,Citadel,23,South Carolina,22
+11/21/2015,Stanford,35,California,22
+11/21/2015,Virginia,42,Duke,34
+11/21/2015,Colorado St,28,New Mexico,21
+11/21/2015,Washington St,27,Colorado,3
+11/21/2015,Baylor,45,Oklahoma St,35
+11/21/2015,Arizona St,52,Arizona,37
+11/21/2015,BYU,52,Fresno St,10
+11/21/2015,Miami FL,38,Georgia Tech,21
+11/21/2015,Georgia,23,Ga Southern,17
+11/21/2015,Connecticut,20,Houston,17
+11/21/2015,Minnesota,32,Illinois,23
+11/21/2015,Indiana,47,Maryland,28
+11/21/2015,Auburn,56,Idaho,34
+11/21/2015,Temple,31,Memphis,12
+11/21/2015,Louisiana Tech,17,UTEP,15
+11/21/2015,Pittsburgh,45,Louisville,34
+11/21/2015,Kansas St,38,Iowa St,35
+11/21/2015,Mississippi,38,LSU,17
+11/21/2015,Notre Dame,19,Boston College,16
+11/21/2015,Northwestern,13,Wisconsin,7
+11/21/2015,North Carolina,30,Virginia Tech,27
+11/21/2015,MTSU,41,North Texas,7
+11/21/2015,New Mexico St,37,ULL,34
+11/21/2015,Navy,44,Tulsa,21
+11/21/2015,Utah St,31,Nevada,27
+11/21/2015,Mississippi St,51,Arkansas,50
+11/21/2015,Michigan,28,Penn St,16
+11/21/2015,Michigan St,17,Ohio St,14
+11/21/2015,Miami OH,20,Massachusetts,13
+11/21/2015,Oregon,48,USC,28
+11/21/2015,Oklahoma,30,TCU,29
+11/21/2015,Texas A&M,25,Vanderbilt,0
+11/21/2015,NC State,42,Syracuse,29
+11/21/2015,Tennessee,19,Missouri,8
+11/21/2015,Florida St,52,Chattanooga,13
+11/21/2015,San Jose St,42,Hawaii,23
+11/21/2015,Rutgers,31,Army,21
+11/21/2015,San Diego St,52,UNLV,14
+11/21/2015,Iowa,40,Purdue,20
+11/21/2015,UT San Antonio,34,Rice,24
+11/21/2015,WKU,63,Florida Intl,7
+11/21/2015,West Virginia,49,Kansas,0
+11/21/2015,Akron,42,Buffalo,21
+11/21/2015,SMU,49,Tulane,21
+11/21/2015,UCLA,17,Utah,9
+11/21/2015,Washington,52,Oregon St,7
+11/21/2015,Clemson,33,Wake Forest,13
+11/21/2015,Southern Miss,56,Old Dominion,31
+11/21/2015,Georgia St,24,South Alabama,10
+11/21/2015,Florida,20,FL Atlantic,14
+11/21/2015,Alabama,56,Charleston So,6
+11/21/2015,Kentucky,58,Charlotte,10
+11/24/2015,Ohio,26,N Illinois,21
+11/24/2015,Bowling Green,48,Ball St,10
+11/26/2015,Texas Tech,48,Texas,45
+11/26/2015,South Florida,44,UCF,3
+11/27/2015,W Michigan,35,Toledo,30
+11/27/2015,Washington,45,Washington St,10
+11/27/2015,TCU,28,Baylor,21
+11/27/2015,Akron,20,Kent,0
+11/27/2015,Iowa,28,Nebraska,20
+11/27/2015,Massachusetts,31,Buffalo,26
+11/27/2015,C Michigan,35,E Michigan,28
+11/27/2015,Oregon,52,Oregon St,42
+11/27/2015,Miami FL,29,Pittsburgh,24
+11/27/2015,Arkansas,28,Missouri,3
+11/27/2015,Houston,52,Navy,31
+11/27/2015,WKU,49,Marshall,28
+11/27/2015,Boise St,40,San Jose St,23
+11/27/2015,Georgia St,31,Troy,21
+11/27/2015,Tulsa,45,Tulane,34
+11/28/2015,Michigan St,55,Penn St,16
+11/28/2015,Oklahoma,58,Oklahoma St,23
+11/28/2015,LSU,19,Texas A&M,7
+11/28/2015,Memphis,63,SMU,0
+11/28/2015,Southern Miss,58,Louisiana Tech,24
+11/28/2015,Appalachian St,28,ULL,7
+11/28/2015,Stanford,38,Notre Dame,36
+11/28/2015,Ohio St,42,Michigan,13
+11/28/2015,Hawaii,28,ULM,26
+11/28/2015,Northwestern,24,Illinois,14
+11/28/2015,San Diego St,31,Nevada,14
+11/28/2015,North Carolina,45,NC State,34
+11/28/2015,MTSU,42,UT San Antonio,7
+11/28/2015,Mississippi,38,Mississippi St,27
+11/28/2015,Wyoming,35,UNLV,28
+11/28/2015,Florida St,27,Florida,2
+11/28/2015,Georgia,13,Georgia Tech,7
+11/28/2015,Indiana,54,Purdue,36
+11/28/2015,Maryland,46,Rutgers,41
+11/28/2015,Louisville,38,Kentucky,24
+11/28/2015,Kansas St,45,Kansas,14
+11/28/2015,West Virginia,30,Iowa St,6
+11/28/2015,Syracuse,20,Boston College,17
+11/28/2015,Arkansas St,52,New Mexico St,28
+11/28/2015,New Mexico,47,Air Force,35
+11/28/2015,Alabama,29,Auburn,13
+11/28/2015,California,48,Arizona St,46
+11/28/2015,Utah,20,Colorado,14
+11/28/2015,Clemson,37,South Carolina,32
+11/28/2015,Colorado St,34,Fresno St,31
+11/28/2015,Duke,27,Wake Forest,21
+11/28/2015,Temple,27,Connecticut,3
+11/28/2015,BYU,51,Utah St,28
+11/28/2015,Cincinnati,19,East Carolina,16
+11/28/2015,FL Atlantic,33,Old Dominion,31
+11/28/2015,Ga Southern,55,South Alabama,17
+11/28/2015,Rice,27,Charlotte,7
+11/28/2015,Wisconsin,31,Minnesota,21
+11/28/2015,UTEP,20,North Texas,17
+11/28/2015,USC,40,UCLA,21
+11/28/2015,Virginia Tech,23,Virginia,20
+11/28/2015,Tennessee,53,Vanderbilt,28
+11/28/2015,Idaho,38,Texas St,31
+12/4/2015,Bowling Green,34,N Illinois,14
+12/5/2015,Georgia St,34,Ga Southern,7
+12/5/2015,Troy,41,ULL,17
+12/5/2015,Kansas St,24,West Virginia,23
+12/5/2015,Arkansas St,55,Texas St,17
+12/5/2015,Texas,23,Baylor,17
+12/5/2015,ULM,42,New Mexico St,35
+12/5/2015,Appalachian St,34,South Alabama,27
+12/5/2015,Alabama,29,Florida,15
+12/5/2015,Stanford,41,USC,22
+12/5/2015,Michigan St,16,Iowa,13
+12/5/2015,Clemson,45,North Carolina,37
+12/5/2015,Houston,24,Temple,13
+12/5/2015,WKU,45,Southern Miss,28
+12/5/2015,San Diego St,27,Air Force,24
+12/12/2015,Navy,21,Army,17
