@@ -233,22 +233,25 @@ def solve(f, xmin, xmax, target):
 def exp_wins(rating_diffs):
     return np.sum(norm.cdf(rating_diffs/15))
 
-def get_ranking(teams, fpi):
-    '''`teams` maps team names to instances of class `Team`. `fpi` maps team
-    names to the team's ESPN FPI score.'''
+def get_ratings(teams, fpi):
+    '''The inputs are `teams`, a dictionary that maps team names to instances
+    of class `Team`, and `fpi`, a dictionary that maps team names to the team's
+    ESPN FPI score. Returns a tuple `(ranking, ratings)`. `ranking` is a list
+    of team names sorted from best to worst, and `ratings` is a dictionary
+    that maps team names to the team's rating.'''
     n = len(teams)
-    ratings = np.zeros(n)
+    ratings_array = np.zeros(n)
     teams_list = np.sort(teams.keys())
     
     while True:
-        new_ratings = np.zeros(n)
+        new_ratings_array = np.zeros(n)
         for team_str in teams_list:
             team = teams[team_str]
             team_idx = np.where(teams_list == team_str)[0][0]
             
             opp_strs = team.get_opponents()
             opp_idxs = np.searchsorted(teams_list, opp_strs, side='left')
-            opp_ratings = ratings[opp_idxs]
+            opp_ratings = ratings_array[opp_idxs]
             wins, _ = team.get_win_loss()
             
             #add a win and a loss against an imaginary team whose
@@ -261,18 +264,23 @@ def get_ranking(teams, fpi):
             wins += 1
             
             f = lambda x: exp_wins(x - opp_ratings)
-            new_ratings[team_idx] = solve(f, -100, 100, wins)
+            new_ratings_array[team_idx] = solve(f, -100, 100, wins)
         
-        new_ratings -= np.mean(new_ratings)
-        if np.sum(np.abs(new_ratings - ratings)) < 1e-2:
-            ratings = new_ratings
+        new_ratings_array -= np.mean(new_ratings_array)
+        if np.sum(np.abs(new_ratings_array - ratings_array)) < 1e-2:
+            ratings_array = new_ratings_array
             break
         else:
-            ratings = new_ratings
+            ratings_array = new_ratings_array
     
-    sort_idxs = np.argsort(ratings)[::-1]
+    #sort from best to worst
+    sort_idxs = np.argsort(ratings_array)[::-1]
     ranking = teams_list[sort_idxs]
-    ratings = ratings[sort_idxs]
+    ratings_array = ratings_array[sort_idxs]
+    
+    ratings = {}
+    for team_str, rating in zip(ranking, ratings_array):
+        ratings[team_str] = rating
     return ranking, ratings
 
 def print_ranking(teams, fpi, ranking, ratings, outfile=None):
@@ -291,12 +299,11 @@ def print_ranking(teams, fpi, ranking, ratings, outfile=None):
         sos = 0.0
         m = len(opp_strs)
         for opp_str in opp_strs:
-            opp_idx = np.where(ranking == opp_str)[0][0]
-            sos += ratings[opp_idx] / m
+            sos += ratings[opp_str] / m
         
         rank = i+1
         win_loss_str = ' ({}-{})'.format(*team.get_win_loss())
-        rating = ratings[i]
+        rating = ratings[team_str]
         try:
             team_fpi = fpi[team_str]
         except KeyError:
@@ -333,5 +340,5 @@ if __name__ == '__main__':
     fbs_list = fpi.keys()
     teams = read_data(datafile, fbs_list)
     assert set(fbs_list) ^ set(teams.keys()) == set(['FCS Teams'])
-    ranking, ratings = get_ranking(teams, fpi)
+    ranking, ratings = get_ratings(teams, fpi)
     print_ranking(teams, fpi, ranking, ratings, outfile)
