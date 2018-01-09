@@ -1,6 +1,6 @@
-Alabama,28.5
+Alabama,28.4
 OSU,26.9
-Georgia,25
+Georgia,25.1
 Penn State,25
 Clemson,24.2
 Oklahoma,22.3
@@ -9,7 +9,7 @@ Washington,21.7
 Auburn,21.6
 Notre Dame,18.9
 Oklahoma State,17
-TCU,16.9
+TCU,16.8
 Stanford,15.8
 LSU,13.9
 UCF,13.8
@@ -26,8 +26,8 @@ Texas,10.6
 Iowa State,10
 Northwestern,9.9
 Oregon,9.4
-Memphis,8.9
 Kansas State,8.9
+Memphis,8.9
 Wake Forest,8.9
 Michigan State,8
 Georgia Tech,7.6
@@ -66,9 +66,9 @@ Army,0.7
 Minnesota,-0.2
 Colorado,-0.5
 Troy,-0.5
-Arkansas,-1.3
+Arkansas,-1.4
 Nebraska,-2.1
-Colorado State,-2.3
+Colorado State,-2.4
 SMU,-2.5
 Tennessee,-2.6
 N Illinois,-3.3
@@ -93,7 +93,7 @@ Cent Michigan,-7.9
 BYU,-8
 Rutgers,-8.1
 UTSA,-8.1
-Miami (OH),-8.3
+Miami (OH),-8.2
 North Texas,-8.3
 Mid Tennessee,-9
 UMass,-9.3

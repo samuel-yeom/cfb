@@ -1,8 +1,7 @@
 # College Football Ranking
 ...because we [clearly](https://www.masseyratings.com/cf/compare.htm) don't have enough rankings already
 * 2017 rankings
-    * [if Alabama wins](rankings/2017alabama.md)
-    * [if Georgia wins](rankings/2017georgia.md)
+    * [final](rankings/2017.md)
     * [before bowl games](rankings/2017prebowl.md)
 * 2016 rankings
     * [final](rankings/2016.md)
@@ -15,4 +14,9 @@
     * [before bowl games](rankings/2014prebowl.md)
 
 ## Overview
-A perennial debate in college football is whether the "best" teams should be ranked above the "most deserving" teams. Different models take different positions on this issue. Some, like [ESPN's FPI](http://www.espn.com/college-football/statistics/teamratings), attempt to find the true strength of teams in order to predict the results of future games. Others, such as [Colley](https://www.colleyrankings.com), reward teams for their wins and penalize them for their losses. This ranking is a simple attempt at combining these two approaches. At the beginning of the season, this ranking is identical to the FPI ranking, but as more games are played in the season, a team's record is given more and more weight.
+A perennial debate in college football is whether the "best" teams should be ranked above the "most deserving" teams. Different models take different positions on this issue. Some, like [ESPN's FPI](http://www.espn.com/college-football/statistics/teamratings), attempt to find the true strength of teams in order to predict the results of future games. Others, such as [Colley](https://www.colleyrankings.com), reward teams for their wins and penalize them for their losses. This ranking is an attempt at combining these two approaches to get something that resembles human polls ([AP](https://collegefootball.ap.org/poll), [Coaches](http://sportspolls.usatoday.com/ncaa/football/polls/coaches-poll), [CFP](http://collegefootballplayoff.com/rankings.aspx)). Here are the ways in which this ranking differs from human polls:
+
+* **Very little consideration for margin of victory.** While the margin of victory is useful for determining which teams are "better", the goal of a football game is to win, not to lose by as few points as possible. This ranking uses margin of victory only indirectly through FPI scores.
+* **No recency bias.** Games have the same impact on a team's rating regardless of when they were played during the season.
+
+At the beginning of the season, this ranking is identical to the FPI ranking, but as more games are played in the season, a team's record becomes much more important.
