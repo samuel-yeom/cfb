@@ -131,6 +131,7 @@ def standardize_team_str(team_str):
                 'LA Tech': 'Louisiana Tech',
                 'Miami': 'Miami FL',
                 'Miami (OH)': 'Miami OH',
+                'Mich. St.': 'Michigan State',
                 'Miss State': 'Mississippi State',
                 'Mississippi': 'Ole Miss',
                 'MTSU': 'Mid Tennessee',
@@ -138,6 +139,7 @@ def standardize_team_str(team_str):
                 'OSU': 'Ohio State',
                 'Pitt': 'Pittsburgh',
                 'South Florida': 'USF',
+                'S Carolina': 'South Carolina',
                 'UConn': 'Connecticut',
                 'UL Monroe': 'ULM',
                 'ULL': 'Louisiana',
@@ -170,7 +172,7 @@ def read_fpi(fpifile):
             fpi[team_str] = fpiscore
     return fpi
 
-def read_data(datafile, fbs_list):
+def read_data(datafile, fbs_list, cutoff_date):
     '''`datafile` must be a CSV file where each row corresponds to a game. The
     file must have five columns in the following order:
         1. date of game (M/d/yyyy)
@@ -179,14 +181,24 @@ def read_data(datafile, fbs_list):
         4. name of team 2
         5. score of team 2
     `fbs_list` is a list of standardized (with the function
-    `standardize_team_str`) names of FBS teams. Returns `teams`, which maps
-    standardized team names to instances of class `Team`.'''
+    `standardize_team_str`) names of FBS teams. `cutoff_date` is a
+    datetime.date object such that games that took place after this date
+    should be ignored. Returns `teams`, which maps standardized team names to
+    instances of class `Team`.'''
     teams = {}
     with open(datafile) as f:
         reader = csv.reader(f)
         for row in reader:
             row = map(lambda s: s.strip(), row)
             date_str, team1_str, score1_str, team2_str, score2_str = row
+            
+            #determine if the game should count by looking at the date
+            month, day, year = map(int, date_str.split('/'))
+            date = datetime.date(year, month, day)
+            if date > cutoff_date:
+                continue
+            
+            #standardize the team names
             team1_str = standardize_team_str(team1_str)
             team2_str = standardize_team_str(team2_str)
             if team1_str not in fbs_list:
@@ -195,9 +207,7 @@ def read_data(datafile, fbs_list):
                 team2_str = 'FCS Teams'
             assert not team1_str == team2_str == 'FCS Teams'
         
-            #put the data into appropriate format
-            month, day, year = map(int, date_str.split('/'))
-            date = datetime.date(year, month, day)                
+            #put the data into appropriate format             
             if team1_str in teams:
                 team1 = teams[team1_str]
             else:
@@ -320,25 +330,25 @@ def print_ranking(teams, fpi, ranking, ratings, outfile=None):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Produces a ranking of college football teams for a given season')
     parser.add_argument('year', type=int, help='A 4-digit year representing the college football season')
+    parser.add_argument('date', help='Cutoff date in yyyymmdd format; games after this date do not count toward the ranking')
     parser.add_argument('--out', help='The file where the ranking will be written; if not used, prints to stdout')
-    parser.add_argument('--prebowl', action='store_true', help='If used, generates pre-bowl game ranking')
+    #parser.add_argument('--prebowl', action='store_true', help='If used, generates pre-bowl game ranking')
     if len(sys.argv) == 1: #if no arguments are given
         parser.print_help()
         sys.exit(2)
     args = parser.parse_args()
-    if args.year < 2014 or args.year > 2017:
-        raise ValueError('year must be between 2014 and 2017, inclusive')
-    suffix = str(args.year)
-    if args.prebowl:
-        suffix += 'prebowl'
     
-    datafile = 'data/massey{}.csv'.format(suffix)
-    fpifile = 'data/fpi{}.csv'.format(suffix)
+    year = args.year
+    cutoff_date_str = args.date
+    cutoff_date = datetime.datetime.strptime(cutoff_date_str, '%Y%m%d').date()
     outfile = args.out
+    
+    datafile = 'data/{}/massey.csv'.format(year)
+    fpifile = 'data/{}/fpi{}.csv'.format(year, cutoff_date_str)
     
     fpi = read_fpi(fpifile)
     fbs_list = list(fpi.keys())
-    teams = read_data(datafile, fbs_list)
+    teams = read_data(datafile, fbs_list, cutoff_date)
     assert set(fbs_list) ^ set(teams.keys()) == set(['FCS Teams'])
     ranking, ratings = get_ratings(teams, fpi)
     print_ranking(teams, fpi, ranking, ratings, outfile)
