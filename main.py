@@ -1,4 +1,4 @@
-from __future__ import division
+from __future__ import division, print_function
 import argparse
 import csv
 import datetime
@@ -52,7 +52,7 @@ class Team(object):
     
     def print_record(self, ranking=None):
         wins, losses = self.get_win_loss()
-        print '{} ({}-{})'.format(self._name, wins, losses)
+        print('{} ({}-{})'.format(self._name, wins, losses))
         for game in self._record:
             game.print_game(self, ranking)
 
@@ -109,10 +109,10 @@ class Game(object):
         opp_str = self.get_opp_name(team)
         result = 'W' if ownscore > oppscore else 'L'
         if ranking is None:
-            print '{} {} {:>2}-{:>2} {}'.format(date_str, result, ownscore, oppscore, opp_str)
+            print('{} {} {:>2}-{:>2} {}'.format(date_str, result, ownscore, oppscore, opp_str))
         else:
             opp_rank = np.where(ranking == opp_str)[0][0] + 1
-            print '{} {} {:>2}-{:>2} {:>4} {}'.format(date_str, result, ownscore, oppscore, '#'+str(opp_rank), opp_str)
+            print('{} {} {:>2}-{:>2} {:>4} {}'.format(date_str, result, ownscore, oppscore, '#'+str(opp_rank), opp_str))
 
 def standardize_team_str(team_str):
     '''Converts a team name to a standardized version.'''
@@ -241,7 +241,7 @@ def get_ratings(teams, fpi):
     that maps team names to the team's rating.'''
     n = len(teams)
     ratings_array = np.zeros(n)
-    teams_list = np.sort(teams.keys())
+    teams_list = np.sort(list(teams.keys()))
     
     while True:
         new_ratings_array = np.zeros(n)
@@ -311,11 +311,11 @@ def print_ranking(teams, fpi, ranking, ratings, outfile=None):
         output += '{:>4} | {:25} | {:6.2f} | {:5.1f} | {:5.1f}\n'.format(rank, team_str+win_loss_str, rating, sos, team_fpi)
     
     if outfile is None:
-        print output
+        print(output)
     else:
         with open(outfile, 'w') as f:
             f.write(output)
-        print 'Output written to {}'.format(outfile)
+        print('Output written to {}'.format(outfile))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Produces a ranking of college football teams for a given season')
@@ -337,7 +337,7 @@ if __name__ == '__main__':
     outfile = args.out
     
     fpi = read_fpi(fpifile)
-    fbs_list = fpi.keys()
+    fbs_list = list(fpi.keys())
     teams = read_data(datafile, fbs_list)
     assert set(fbs_list) ^ set(teams.keys()) == set(['FCS Teams'])
     ranking, ratings = get_ratings(teams, fpi)
