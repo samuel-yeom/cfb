@@ -2,6 +2,7 @@
 ...because we [clearly](https://www.masseyratings.com/cf/compare.htm) don't have enough rankings already
 * 2018 rankings
     * [Week 5](rankings/2018/week05.md)
+    * [Week 6](rankings/2018/week06.md)
 * 2017 rankings
     * [Regular Season](rankings/2017prebowl.md)
     * [Final](rankings/2017.md)
