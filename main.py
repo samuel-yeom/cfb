@@ -175,7 +175,7 @@ def read_fpi(fpifile):
 def read_data(datafile, fbs_list, cutoff_date):
     '''`datafile` must be a CSV file where each row corresponds to a game. The
     file must have five columns in the following order:
-        1. date of game (M/d/yyyy)
+        1. date of game (yyyy-mm-dd)
         2. name of team 1
         3. score of team 1
         4. name of team 2
@@ -193,8 +193,7 @@ def read_data(datafile, fbs_list, cutoff_date):
             date_str, team1_str, score1_str, team2_str, score2_str = row
             
             #determine if the game should count by looking at the date
-            month, day, year = map(int, date_str.split('/'))
-            date = datetime.date(year, month, day)
+            date = datetime.datetime.strptime(date_str, '%Y-%m-%d').date()
             if date > cutoff_date:
                 continue
             
