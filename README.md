@@ -5,6 +5,7 @@
     * [Week 6](rankings/2018/week06.md)
     * [Week 7](rankings/2018/week07.md)
     * [Week 8](rankings/2018/week08.md)
+    * [Week 9](rankings/2018/week09.md)
 * 2017 rankings
     * [Regular Season](rankings/2017prebowl.md)
     * [Final](rankings/2017.md)
