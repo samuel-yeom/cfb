@@ -1,4 +1,4 @@
-Game data from [Massey Ratings](https://www.masseyratings.com/data.php)
+Game data from [Massey Ratings](https://www.masseyratings.com/data)
 
 SoS: strength of schedule; average rating of opponents
 

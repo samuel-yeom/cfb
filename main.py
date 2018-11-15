@@ -294,7 +294,7 @@ def get_ratings(teams, fpi):
 
 def print_ranking(teams, fpi, ranking, ratings, outfile=None):
     output = ''
-    output += 'Game data from [Massey Ratings](https://www.masseyratings.com/data.php)\n\n'
+    output += 'Game data from [Massey Ratings](https://www.masseyratings.com/data)\n\n'
     output += 'SoS: strength of schedule; average rating of opponents\n\n'
     output += "FPI: estimate of the team's strength, as predicted by\n"
     output += '[ESPN](http://www.espn.com/college-football/statistics/teamratings)\n\n'
