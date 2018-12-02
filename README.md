@@ -10,6 +10,7 @@
     * [Week 11](rankings/2018/week11.md)
     * [Week 12](rankings/2018/week12.md)
     * [Week 13](rankings/2018/week13.md)
+    * [Week 14 (Regular Season)](rankings/2018/week14.md)
 * 2017 rankings
     * [Regular Season](rankings/2017prebowl.md)
     * [Final](rankings/2017.md)
