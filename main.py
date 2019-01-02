@@ -331,7 +331,6 @@ if __name__ == '__main__':
     parser.add_argument('year', type=int, help='A 4-digit year representing the college football season')
     parser.add_argument('date', help='Cutoff date in yyyymmdd format; games after this date do not count toward the ranking')
     parser.add_argument('--out', help='The file where the ranking will be written; if not used, prints to stdout')
-    #parser.add_argument('--prebowl', action='store_true', help='If used, generates pre-bowl game ranking')
     if len(sys.argv) == 1: #if no arguments are given
         parser.print_help()
         sys.exit(2)
