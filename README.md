@@ -12,6 +12,7 @@
     * [Week 13](rankings/2018/week13.md)
     * [Week 14](rankings/2018/week14.md)
     * [Bowl Games](rankings/2018/semis.md)
+    * [Final](rankings/2018/final.md)
 * 2017 rankings
     * [Regular Season](rankings/2017prebowl.md)
     * [Final](rankings/2017.md)
