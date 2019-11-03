@@ -6,6 +6,7 @@
     * [Week 7](rankings/2019/week07.md)
     * [Week 8](rankings/2019/week08.md)
     * [Week 9](rankings/2019/week09.md)
+    * [Week 10](rankings/2019/week10.md)
 * 2018 rankings
     * [Week 5](rankings/2018/week05.md)
     * [Week 6](rankings/2018/week06.md)
