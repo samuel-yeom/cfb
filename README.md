@@ -12,6 +12,7 @@
     * [Week 13](rankings/2019/week13.md)
     * [Week 14](rankings/2019/week14.md)
     * [Week 15](rankings/2019/week15.md)
+    * [Bowl Games](rankings/2019/semis.md)
 * 2018 rankings
     * [Week 5](rankings/2018/week05.md)
     * [Week 6](rankings/2018/week06.md)
